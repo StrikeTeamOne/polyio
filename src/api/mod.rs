@@ -17,6 +17,8 @@ pub mod markets;
 pub mod ticker;
 /// Definitions for retrieving the available ticker types.
 pub mod ticker_types;
+/// Definitions pertaining a ticker.
+mod tickers;
 
 /// A response type used in certain API calls.
 pub use response::Response;
