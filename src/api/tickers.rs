@@ -33,6 +33,6 @@ Endpoint! {
   ]
 
   fn path(_input: &Self::Input) -> Str {
-    "/v2/reference/tickers/".to_string().into()
+    "/v3/reference/tickers/".to_string().into()
   }
 }
